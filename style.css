@@ -1,0 +1,63 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+        *{
+            margin:0;
+            padding:0;
+            border:0;
+        }
+        body{
+            background-color: #252525;
+        }
+        header{
+            padding: 32px;
+            border-bottom: 1px solid var(--subcor);
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+        header div{
+            text-align: center;
+        }
+        header div a{
+         color:white;
+         font-size: 20px;
+         line-height: 30px;
+         margin:0 16px;
+         text-decoration: none;
+         font-family: "Playfair Display", serif;
+        }
+        header div a:hover{
+            color:purple;
+            transition: color 700ms;
+        }
+    
+       #box{
+        text-align: center;
+        padding:32px;
+       }
+
+       #box img{
+        border-radius: 50%;
+        border: 5px solid #6e0332;
+        margin-bottom: 32px;
+       }
+       #box h1{
+        font-size: 42px;
+        line-height: 52px;
+        font-weight: bold;
+       }
+       #box h2{
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: normal;
+        margin-top: 8px;
+        opacity:0.8;
+       }
+       #box p {
+        max-width: 500px;
+        margin:32px auto;
+        font-size: 24px;
+        line-height: 34px;
+       }
+    :root{
+        --subcor:#57a615;
+    }
+       
