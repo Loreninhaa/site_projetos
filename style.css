@@ -13,10 +13,10 @@
             border-bottom: 1px solid var(--subcor);
             background-color: rgba(0, 0, 0, 0.1);
         }
-        header div{
+        .links  {
             text-align: center;
         }
-        header div a{
+        .links a{
          color:white;
          font-size: 20px;
          line-height: 30px;
@@ -24,9 +24,10 @@
          text-decoration: none;
          font-family: "Playfair Display", serif;
         }
-        header div a:hover{
-            color:purple;
+        .links a:hover{
+            color:var(--subcor);
             transition: color 700ms;
+            font-size: 23px;
         }
     
        #box{
@@ -59,5 +60,13 @@
        }
     :root{
         --subcor:#57a615;
+    }
+    #linksFooter {
+        padding-top: 45px;
+    }
+    #linksFooter a{
+        padding-top: 32px;
+        padding-bottom: 8px;
+        border-bottom: 3px solid var(--subcor);
     }
        
